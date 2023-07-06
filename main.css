@@ -5,6 +5,7 @@
     --blue: #2292A4;
     --citrine: #BDBF09;
     --cocoa-brown: #D96C06;
+    --red-alert: #b81717;
 }
 
 body {
@@ -41,16 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--citrine);
 }
 
-.text-blue {
-    color: var(--blue);
-}
-
-.text-cocoa-brown {
-    color: var(--cocoa-brown);
-}
-
-.nav-jogos .nav-link.active,
-#fale-conosco button {
+.nav-jogos .nav-link.active {
     background-color: var(--citrine);
     color: var(--white);
 }
@@ -62,5 +54,44 @@ h1, h2, h3, h4, h5, h6 {
 #sobre-a-gamerland,
 #jogos {
     background-color: var(--isabelline);
+}
+
+#fale-conosco {
+    background-color: var(--cocoa-brown);
+    color: var(--white);
+}
+
+#fale-conosco button {
+    background-color: var(--white);
+    color: var(--cocoa-brown);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links a i {
+    color: var(--white);
+}
+
+.error-message {
+    background-color: var(--red-alert);
+    color: var(--white);
+    font-size: 14px;
+    margin-top: 8px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
 }
 
