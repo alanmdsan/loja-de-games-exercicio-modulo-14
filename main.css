@@ -59,7 +59,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--citrine);
 }
 
-#sobre-a-gamerland {
+#sobre-a-gamerland,
+#jogos {
     background-color: var(--isabelline);
 }
 
