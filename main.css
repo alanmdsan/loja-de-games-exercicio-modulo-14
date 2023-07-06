@@ -1,0 +1,65 @@
+:root {
+    --smoky-black: #0F0A0A;
+    --isabelline: #F5EFED;
+    --white: #FFFFFF;
+    --blue: #2292A4;
+    --citrine: #BDBF09;
+    --cocoa-brown: #D96C06;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--smoky-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: var(--citrine);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--white);
+    color: var(--citrine);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-jogos .nav-link.active:hover {
+    color: var(--white);
+}
+
+.navbar-toggler {
+    background-color: var(--isabelline);
+}
+
+.text-citrine {
+    color: var(--citrine);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-cocoa-brown {
+    color: var(--cocoa-brown);
+}
+
+.nav-jogos .nav-link.active,
+#fale-conosco button {
+    background-color: var(--citrine);
+    color: var(--white);
+}
+
+.nav-jogos .nav-link:hover {
+    color: var(--citrine);
+}
+
+#sobre-a-gamerland {
+    background-color: var(--isabelline);
+}
+

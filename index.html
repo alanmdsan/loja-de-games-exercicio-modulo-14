@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamerland</title>
+    <link rel="icon" type="image/x-icon" href="./ico/controller.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Gamerland</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-gamerland" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Sobre a Gamerland
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#consoles" class="nav-link">
+                            <i class="bi bi-dpad me-1"></i>
+                            Consoles
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-box me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-gamerland">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/luchador_hd_fortnite-1920x760.jpg" alt="Luchador Fortnite">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/the_duviri_paradox_lone_story_hd_warframe-1920x760.jpg" alt="Duviri Paradox">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/the_lord_of_the_rings_rise_to_war-1920x760.jpg" alt="Lord of the Rings Rise to War">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/forza_horizon_5-1920x760.jpg" alt="Forza Horizon 5">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/gameshop.png" class="d-block w-100 rounded" alt="Foto da loja Gamerland">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="text-blue">Sobre a Gamerland</h2>
+                            <p>
+                                Nossa loja oferece o melhor em variedade de games e lançamentos para os principais consoles do mercado, aproveite!
+                            </p>
+                            <h3 class="text-blue">Sobre o espaço</h3>
+                            <p>
+                                Conheça nosso espaço físico, oferecemos o máximo de conforto e também a oportunidade de que jogadores experimentem os jogos antes da compra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="consoles" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center text-cocoa-brown">Temos jogos para os seguintes consoles</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/consoles/xbox.jpg" class="d-block w-100 rounded mb-2" alt="Xbox">
+                        <h3 class="fs-4 text-center">
+                            <i class="bi bi-xbox"></i>
+                            Xbox
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/consoles/ps-5.jpg" class="d-block w-100 rounded mb-2" alt="Playstation 5">
+                        <h3 class="fs-4 text-center">
+                            <i class="bi bi-playstation"></i>
+                            Playstation 5
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/consoles/nintendo-switch.jpg" class="d-block w-100 rounded mb-2" alt="Nintend Switch">
+                        <h3 class="fs-4 text-center">
+                            <i class="bi bi-nintendo-switch"></i>
+                            Nintendo Switch
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jogos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-citrine text-center mb-5">Nossos jogos mais vendidos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-jogos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#xbox" class="nav-link fw-bold text-start text-citrine active">Xbox</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#playstation-5" class="nav-link fw-bold text-start text-citrine">Playstation 5</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nintendo-switch" class="nav-link fw-bold text-start text-citrine">Nintendo Switch</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="xbox">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/games/xbox/cult-of-the-lamb.jpg" class="d-block w-100" alt="Jogo Cult of the Lamb">
+                                        <h5 class="fw-bold mt-2">Cult of the Lamb</h5>
+                                        <p>
+                                            É uma mistura de criar e cuidar de sua nova comunidade de seguidores de animais e lutar contra incrédulos, líderes rivais e outros inimigos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/xbox/gang-beasts.jpg" class="d-block w-100" alt="Jogo Gang Beasts">
+                                        <h5 class="fw-bold mt-2">Gang Beasts</h5>
+                                        <p>
+                                            Um jogo hilário onde você e até três amigos lutam em um vale-tudo como humanóides redondos e gelatinosos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/xbox/hi-fi-rush.jpg" class="d-block w-100" alt="Jogo Hi-Fi Rush">
+                                        <h5 class="fw-bold mt-2">Hi-Fi Rush</h5>
+                                        <p>
+                                            Hi-Fi Rush é um jogo de ritmo de ação beat-em-up.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/xbox/lego-star-wars.jpg" class="d-block w-100" alt="Jogo Lego Star Wars">
+                                        <h5 class="fw-bold mt-2">Lego Star Wars</h5>
+                                        <p>
+                                            LEGO Star Wars: The Skywalker Saga é um dos maiores jogos LEGO de todos os tempos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/xbox/minecraft.jpg" class="d-block w-100" alt="Jogo Minecraft">
+                                        <h5 class="fw-bold mt-2">Minecraft</h5>
+                                        <p>
+                                            É um jogo de mundo aberto no estilo de blocos, onde você pode criar quase tudo e explorar um mundo quase ilimitado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/xbox/mount-and-blade.jpg" class="d-block w-100" alt="Jogo Mount and Blade">
+                                        <h5 class="fw-bold mt-2">Mount & Blade</h5>
+                                        <p>
+                                            Combina os gêneros de estratégia, ação e RPG em um enorme jogo de guerra medieval.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="playstation-5">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/games/ps-5/god-of-war-ragnarok.jpg" class="d-block w-100" alt="Jogo God of War Ragnarok">
+                                        <h5 class="fw-bold mt-2">God of War Ragnarok</h5>
+                                        <p>
+                                            O jogo, que faz os jogadores se aventurarem por fantásticos reinos nórdicos, é muito popular.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/ps-5/marvel-midnight-suns.jpg" class="d-block w-100" alt="Jogo Marvel Midnight Suns">
+                                        <h5 class="fw-bold mt-2">Marvel Midnight Suns</h5>
+                                        <p>
+                                            O jogo, no qual os jogadores lutam contra inimigos e realizam missões ao lado dos heróis da Marvel, também tem um aspecto social.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/ps-5/the-last-of-us.jpg" class="d-block w-100" alt="Jogo The Last of Us">
+                                        <h5 class="fw-bold mt-2">The Last of Us</h5>
+                                        <p>
+                                            Jogos como este “representam o sucesso absoluto e o crescimento que os videogames tiveram nas últimas décadas”.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nintendo-switch">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/mario-kart-8-deluxe.jpg" class="d-block w-100" alt="Jogo Mario Kart 8 Deluxe">
+                                        <h5 class="fw-bold mt-2">Mario Kart 8 Deluxe</h5>
+                                        <p>
+                                            “Mario Kart 8 Deluxe” é um dos jogos mais vendidos de todos os tempos
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/metroid-dread.jpg" class="d-block w-100" alt="Jogo Metroid Dread">
+                                        <h5 class="fw-bold mt-2">Metroid Dread</h5>
+                                        <p>
+                                            Um jogo arcade baseado em uma aventura intergaláctica.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/nintendo-switch-sports.jpg" class="d-block w-100" alt="Jogo Nintendo Switch Sports">
+                                        <h5 class="fw-bold mt-2">Nintendo Switch Sports</h5>
+                                        <p>
+                                            Os jogadores usam os controles de movimento nos controladores Joy-Con para jogar uma variedade de esportes do mundo real.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/overcooked.jpg" class="d-block w-100" alt="Jogo Overcooked!">
+                                        <h5 class="fw-bold mt-2">Overcooked!</h5>
+                                        <p>
+                                            Os jogadores são cozinheiros em uma cozinha apertada tentando trabalhar juntos para fazer e servir o maior número possível de refeições dentro de um limite de tempo definido.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/splatoon-3.jpg" class="d-block w-100" alt="Jogo Splatoon 3">
+                                        <h5 class="fw-bold mt-2">Splatoon 3</h5>
+                                        <p>
+                                            “Splatoon 3” é um dos jogos de tiro mais exclusivos do mercado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/super-mario-smash-bros.jpg" class="d-block w-100" alt="Jogo Super Mario Smash Bros">
+                                        <h5 class="fw-bold mt-2">Super Mario Smash Bros</h5>
+                                        <p>
+                                            “Super Smash Bros. Ultimate” é realmente o melhor jogo de luta crossover.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/games/nintendo-switch/zelda.jpg" class="d-block w-100" alt="Jogo Zelda">
+                                        <h5 class="fw-bold mt-2">Zelda</h5>
+                                        <p>
+                                            Leva "Link", o protagonista da franquia, através de santuários cheios de quebra-cabeças.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
