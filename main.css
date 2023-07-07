@@ -57,13 +57,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fale-conosco {
-    background-color: var(--cocoa-brown);
+    background-color: var(--blue);
     color: var(--white);
 }
 
 #fale-conosco button {
     background-color: var(--white);
-    color: var(--cocoa-brown);
+    color: var(--blue);
 }
 
 .social-links li {
